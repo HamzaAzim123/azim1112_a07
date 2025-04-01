@@ -36,6 +36,7 @@ world_cup_data = pd.DataFrame({
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H2("Pick a year to view the World Cup Winner and their Runner-up"),
